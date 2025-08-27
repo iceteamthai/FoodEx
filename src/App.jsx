@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Header from '/Components/Header'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import HomePage from './Pages/HomePage.jsx'
 import Products from './Pages/Products'
 import AboutMe from './Pages/AboutMe'
 import NotFound from './Pages/NotFound'
 import CardDetail from './Pages/CardDetail'
+import Header from './Components/Header';
 
 
 const App = () => {
