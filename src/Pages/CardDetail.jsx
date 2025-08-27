@@ -21,14 +21,14 @@ const CardDetail = () => {
               <img src={card.imageUrl} alt={card.title} />
             </div>
             <div className='md:w-1/2 w-full p-6 flex flex-col'>
-              <h1 className='text-4xl font-bold text-yellow-800 mb-4'>{card.title}</h1>
+              <h1 className='text-4xl font-bold text-cyan-500 mb-4'>{card.title}</h1>
               <p className='text-gray-700 text-2xl leading-relaxed'>{card.history}</p>
               <p className='text-black'>{card.description2}</p>
             </div>
           </div>
           <button
             onClick={() => navigate(-1)}
-            className='mt-8 px-6 py-3 bg-yellow-900 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-300'>
+            className='mt-8 px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-950 transition duration-300'>
             ย้อนกลับ
           </button>
         </div>

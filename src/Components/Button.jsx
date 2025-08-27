@@ -6,7 +6,7 @@ const Button = () => {
     <>
       <Link
         to="/Products"
-        className="px-6 py-3 bg-yellow-950 text-white rounded-lg shadow-md hover:bg-yellow-700 transition duration-350"
+        className="px-6 py-3 bg-gray-600 text-white rounded-lg shadow-md hover:bg-blue-950 transition duration-350"
       >
         รายการอาหาร
       </Link>

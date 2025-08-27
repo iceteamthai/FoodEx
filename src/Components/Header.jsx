@@ -12,12 +12,12 @@ const Header = () => {
 
     return (
         <>
-            <header className='bg-yellow-950 text-white p-4'>
+            <header className='bg-blue-950 text-white p-4'>
                 <div className='container mx-auto py-2'>
                     <div className='flex item-center justify-between'>
                         <div className='flex items-center'>
                             <img src="/kitty.png" alt="" className='inline-block mr-2 w-10' />
-                            <h1 className='text-2xl font-bold'>แม่บ้านมีสูตร</h1>
+                            <h1 className='text-2xl font-bold'>พ่อบ้านมีสูตร</h1>
                         </div>
 
                         {/* Hamburger Icon */}
