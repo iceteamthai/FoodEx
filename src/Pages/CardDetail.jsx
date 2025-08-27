@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import allCardData from '../service/cardData'; 
+import allCardData from '../service/cardData';
 import Footer from './../Components/Footer';
 
 const CardDetail = () => {
