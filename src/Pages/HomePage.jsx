@@ -25,7 +25,7 @@ const HomePage = () => {
             {/* รูปภาพด้านขวา */}
             <div className="md:w-1/2 w-full p-4">
               <img
-                src="../public/img/ครัว.jpg"
+                src="/ครัว.jpg"
                 alt="ครัว รังสรรค์"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
